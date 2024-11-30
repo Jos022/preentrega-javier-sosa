@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/carrito.css">
+</head>
+<header id="top">
+            <section id="publicoimg">
+              <img src="/img2/publico.jpg" alt="pogo" class="imageheader">
+            </section>
+            <section id="links">
+              <nav class="nav-flex">
+                <a href="/index.html">Home</a>
+                <a href="./pages/Shows.html">Shows</a>
+                <a href="./pages/Mi perfil.html">Mi perfil</a>
+                <a href="pages/Carrito.html">Carrito</a>
+            </section>
+          </header>
+<body>
+    <h1>5 Seconds of Summer</h1>
+    <section id="imagen-de-comrpa">
+    <img src="/img2/5soscarrito.jpg" alt="5 sos" />
+    </section>
+    <form>
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      
+      <label for="zona">Zona:</label>
+      <select id="zona" name="zona" required>
+          <option value="general">General</option>
+          <option value="vip">VIP</option>
+          <option value="platinum">Platinum</option>
+      </select>
+      
+      <label for="cantidad">Cantidad de Entradas:</label>
+      <input type="number" id="cantidad" name="cantidad" min="1" max="10" required>
+      
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+     <button type="submit" class="btn">Completar Compra</button>
+  </form>
+</main>
+</body>
+</html>
